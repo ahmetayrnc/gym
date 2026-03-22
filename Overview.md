@@ -35,7 +35,7 @@ for (const day of days) {
     }
 
     const sortedMuscles = muscleOrder.filter(m => muscles.has(m)).join(', ');
-    rows.push(`${day.file.name} - **${workoutType}** (${sortedMuscles})`);
+    rows.push(`${day.file.link} - **${workoutType}** (${sortedMuscles})`);
 }
 
 dv.list(rows);
