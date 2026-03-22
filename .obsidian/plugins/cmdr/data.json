@@ -1,0 +1,66 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": false,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "file-explorer:new-file"
+        },
+        {
+          "action": 1,
+          "delay": 250
+        },
+        {
+          "action": 0,
+          "commandId": "file-explorer:move-file"
+        },
+        {
+          "action": 1,
+          "delay": 250
+        },
+        {
+          "action": 0,
+          "commandId": "workspace:edit-file-title"
+        }
+      ],
+      "name": "new exercise",
+      "icon": "lucide-plus-circle",
+      "startup": false
+    }
+  ],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [
+      {
+        "commandID": "cmdr:macro-0",
+        "iconID": "lucide-file-plus-corner"
+      },
+      {
+        "commandID": "hotkeysplus-obsidian:duplicate-lines-down",
+        "iconID": "lucide-arrow-down-from-line"
+      }
+    ],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

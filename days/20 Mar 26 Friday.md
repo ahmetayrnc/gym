@@ -1,0 +1,33 @@
+- [[Lat Pulldown Cable Narrow]]
+	- 25kg 16
+	- 25kg 16
+	- 50kg 10
+	- 50kg 10
+	- 50kg 10
+- [[Lat Row Cable Wide]]
+	- 20kg 14
+	- 20kg 15
+	- 35kg 10
+	- 35kg 10
+	- 35kg 10
+- [[Single Preacher Dumbell]]
+	- 7kg 10
+	- 7kg 10
+	- 12kg 10
+	- 12kg 8
+- [[Single Cable Bicep Curl]]
+	- 5kg 10
+	- 5kg 10
+	- 5kg 10
+- [[Reverse Bicep Curl Dumbell]]
+	- 7kg 10
+	- 7kg 10
+	- 7kg 10
+- [[Cable Crunch]]
+	- 32.5kg 12
+	- 32.5kg 10
+	- 32.5kg 10
+- [[Farmers Walk]]
+	- 20kg 8
+	- 20kg 6
+	- 20kg 6

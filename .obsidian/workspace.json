@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "b31a44d7f1b1df53",
+    "type": "split",
+    "children": [
+      {
+        "id": "94a188c49f7fcff8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13d19beef00125fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "days/21 Mar 26 Saturday.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "21 Mar 26 Saturday"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e300211ce5eab0f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "a021dca394a1bd28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c04a23986dc2d846",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c8dbdfa786f02044",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a1cdea819336b51d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9d1ade8f94c9d5b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "4175a8793f010827",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c66a4b002c91eefb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "days/21 Mar 26 Saturday.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 21 Mar 26 Saturday"
+            }
+          },
+          {
+            "id": "90edc32593d765dc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "days/21 Mar 26 Saturday.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 21 Mar 26 Saturday"
+            }
+          },
+          {
+            "id": "e5f9268ba868b68f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "20977fa41368826f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c9dc836ee3ed5d33",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "days/21 Mar 26 Saturday.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 21 Mar 26 Saturday"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "13d19beef00125fc",
+  "lastOpenFiles": [
+    "exercises/Cable Crunch.md",
+    "exercises/Triceps Pushdown Straight.md",
+    "exercises/Triceps Overhead Dumbell.md",
+    "exercises/Single Preacher Dumbell.md",
+    "exercises/Single Cable Bicep Curl.md",
+    "exercises/Reverse Bicep Curl Dumbell.md",
+    "exercises/Lat Row Cable Wide.md",
+    "exercises/Lat Pulldown Cable Narrow.md",
+    "exercises/Hammer Incline Chest.md",
+    "exercises/Hammer Decline Chest.md",
+    "exercises/Farmers Walk.md",
+    "exercises/Facepull.md",
+    "exercises/Dumbell W Pulls.md",
+    "exercises/Dumbell front Raise.md",
+    "exercises/Cable Rotator Cuff InOut.md",
+    "exercises/Cable Lateral Raises Wide.md",
+    "exercises/Cable Fly Incline.md",
+    "exercises/Cable Decline Fly.md",
+    "Overview.md",
+    "templates/exercise.md",
+    "days/19 Mar 26 Thursday.md",
+    "days/21 Mar 26 Saturday.md",
+    "templates/daily.md"
+  ]
+}

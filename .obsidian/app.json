@@ -1,0 +1,11 @@
+{
+  "alwaysUpdateLinks": true,
+  "tabSize": 2,
+  "mobileToolbarCommands": [
+    "editor:insert-wikilink",
+    "editor:unindent-list",
+    "editor:indent-list",
+    "hotkeysplus-obsidian:duplicate-lines-down",
+    "cmdr:macro-0"
+  ]
+}

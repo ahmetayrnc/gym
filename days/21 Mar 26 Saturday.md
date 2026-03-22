@@ -1,0 +1,24 @@
+- [[Cable Rotator Cuff InOut]]
+	- 1.85kg 12 out 4.3kg 12 in
+	- 1.85kg 12 out 4.3kg 12 in
+	- 1.85kg 12 out 4.3kg 12 in
+- [[Cable Lateral Raises Wide]]
+	- 3.75kg 12
+	- 3.75kg 12
+	- 3.75kg 12
+- [[Facepull]]
+	- 11.25kg 12 
+	- 11.25kg 12
+	- 11.25kg 12
+- [[Dumbell front Raise]]
+	- 4kg 12
+	- 4kg 12
+	- 4kg 12
+- [[Dumbell W Pulls]]
+	- 8kg 12
+	- 8kg 12
+	- 8kg 12
+- [[Cable Crunch]]
+	- 32.5kg 12
+	- 32.5kg 12
+	- 32.5kg 12
