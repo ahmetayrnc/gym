@@ -1,5 +1,70 @@
+### Last 14 days
+
 ```dataviewjs
-const muscleOrder = ['chest', 'back', 'shoulder', 'biceps', 'triceps', 'legs', 'abs'];
+const muscleOrder = ['chest', 'back', 'shoulder', 'biceps', 'triceps', 'forearms', 'traps', 'legs', 'core'];
+const months = {Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12};
+function toDate(name) {
+    const m = name.match(/^(\d+)\s+(\w+)\s+(\d+)/);
+    if (!m) return null;
+    return new Date(2000 + parseInt(m[3]), (months[m[2]] || 1) - 1, parseInt(m[1]));
+}
+
+const cutoff = new Date();
+cutoff.setDate(cutoff.getDate() - 14);
+
+const counts = {};
+for (const m of muscleOrder) counts[m] = 0;
+
+for (const day of dv.pages('"days"').array()) {
+    const d = toDate(day.file.name);
+    if (!d || d < cutoff) continue;
+    const seen = new Set();
+    for (const link of day.file.outlinks) {
+        const ex = dv.page(link.path);
+        if (ex && ex.file.tags) {
+            for (const tag of ex.file.tags) seen.add(tag.replace(/^#/, ''));
+        }
+    }
+    for (const m of seen) {
+        if (counts[m] !== undefined) counts[m]++;
+    }
+}
+
+const chartData = {
+    type: 'bar',
+    data: {
+        labels: muscleOrder.map(m => `${m} (${counts[m]})`),
+        datasets: [{
+            label: 'Days trained (last 14 days)',
+            data: muscleOrder.map(m => counts[m]),
+            backgroundColor: 'rgba(124, 77, 255, 0.5)',
+        }]
+    },
+    options: {
+        indexAxis: 'y',
+        plugins: {
+            legend: { display: false },
+            tooltip: { enabled: false },
+        },
+        scales: {
+            x: {
+                beginAtZero: true,
+                ticks: { stepSize: 1 }
+            },
+            y: {
+                ticks: { autoSkip: false }
+            }
+        }
+    }
+};
+
+window.renderChart(chartData, this.container);
+```
+
+### Schedule
+
+```dataviewjs
+const muscleOrder = ['chest', 'back', 'shoulder', 'biceps', 'triceps', 'forearms', 'traps', 'legs', 'core'];
 const months = {Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12};
 function parseDate(name) {
     const m = name.match(/^(\d+)\s+(\w+)\s+(\d+)/);

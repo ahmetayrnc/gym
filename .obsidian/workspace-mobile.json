@@ -4,109 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a9f34a6d7c5929b6",
+        "id": "346aba53962c5186",
         "type": "tabs",
         "children": [
           {
-            "id": "d4a51e0b0b4b7932",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/exercise.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "exercise"
-            }
-          },
-          {
-            "id": "7fb24b1aa41582db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "days/21 Mar 26 Saturday.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "21 Mar 26 Saturday"
-            }
-          },
-          {
-            "id": "cf4b6e0dd6ba3557",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "days/21 Mar 26 Saturday.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "21 Mar 26 Saturday"
-            }
-          },
-          {
-            "id": "c4d5044cd7f97a1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "days/21 Mar 26 Saturday.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "21 Mar 26 Saturday"
-            }
-          },
-          {
-            "id": "fe8bcff213957c4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "days/22 Mar 26 Sunday.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "22 Mar 26 Sunday"
-            }
-          },
-          {
-            "id": "ae37e1edde862ed6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "days/22 Mar 26 Sunday.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "22 Mar 26 Sunday"
-            }
-          },
-          {
-            "id": "c62dccc9513ae48d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "days/22 Mar 26 Sunday.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "22 Mar 26 Sunday"
-            }
-          },
-          {
-            "id": "8024744fcbd003d4",
+            "id": "95eea4e682420a88",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -119,8 +21,7 @@
               "title": "Overview"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -267,11 +168,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "8024744fcbd003d4",
+  "active": "95eea4e682420a88",
   "lastOpenFiles": [
     "days/22 Mar 26 Sunday.md",
-    "exercises/Reverse Cable Crunch.md",
     "exercises/Cable Crunch.md",
+    "Overview.md",
+    "scripts/exercise-history.js",
+    "scripts",
+    "ideas.md",
+    "exercises/Reverse Cable Crunch.md",
     "exercises/Triceps Pushdown Straight.md",
     "exercises/Triceps Overhead Dumbell.md",
     "exercises/Single Preacher Dumbell.md",
@@ -291,10 +196,7 @@
     "exercises/Cable Lateral Raises Wide.md",
     "exercises/Cable Fly Incline.md",
     "exercises/Cable Decline Fly.md",
-    "Overview.md",
     "days/20 Mar 26 Friday.md",
-    "days/21 Mar 26 Saturday.md",
-    "templates/exercise.md",
     "Untitled",
     "templates",
     "exercises",
