@@ -30,11 +30,30 @@
         },
         {
           "action": 0,
-          "commandId": "workspace:edit-file-title"
+          "commandId": "insert-template"
         }
       ],
       "name": "new exercise",
       "icon": "lucide-plus-circle",
+      "startup": false
+    },
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "editor:follow-link"
+        },
+        {
+          "action": 1,
+          "delay": 250
+        },
+        {
+          "action": 0,
+          "commandId": "markdown:toggle-preview"
+        }
+      ],
+      "name": "open link reader mode",
+      "icon": "star",
       "startup": false
     }
   ],
@@ -52,12 +71,16 @@
     "columnLayout": false,
     "mappedIcons": [
       {
-        "commandID": "cmdr:macro-0",
-        "iconID": "lucide-file-plus-corner"
+        "commandID": "cmdr:macro-1",
+        "iconID": "lucide-arrow-big-right"
       },
       {
         "commandID": "hotkeysplus-obsidian:duplicate-lines-down",
         "iconID": "lucide-arrow-down-from-line"
+      },
+      {
+        "commandID": "cmdr:macro-0",
+        "iconID": "lucide-file-plus"
       }
     ],
     "tooltips": false,

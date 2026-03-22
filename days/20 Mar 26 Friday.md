@@ -15,6 +15,7 @@
 	- 7kg 10
 	- 12kg 10
 	- 12kg 8
+	- 12kg 8
 - [[Single Cable Bicep Curl]]
 	- 5kg 10
 	- 5kg 10

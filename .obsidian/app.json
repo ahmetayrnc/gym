@@ -2,9 +2,10 @@
   "alwaysUpdateLinks": true,
   "tabSize": 2,
   "mobileToolbarCommands": [
+    "app:go-back",
+    "app:go-forward",
     "editor:insert-wikilink",
-    "editor:unindent-list",
-    "editor:indent-list",
+    "cmdr:macro-1",
     "hotkeysplus-obsidian:duplicate-lines-down",
     "cmdr:macro-0"
   ]
