@@ -1,5 +1,1 @@
-- parse the xxx.xxkg xx format to get rep set kg numbers
-	- compare the days and give -> more weight more reps, more volume more sets, etc comments
-	- fix the formatting so that reps and notes are seperate
 - preview for links so I can see what I did previous day
-- 

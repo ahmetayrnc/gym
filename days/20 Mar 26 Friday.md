@@ -11,8 +11,6 @@
 	- 35kg 10
 	- 35kg 10
 - [[Single Preacher Dumbell]]
-	- 7kg 10
-	- 7kg 10
 	- 12kg 10
 	- 12kg 8
 	- 12kg 8

@@ -13,6 +13,118 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "days/23 Mar 26 Monday.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "23 Mar 26 Monday"
+            }
+          },
+          {
+            "id": "4e3b81b5ce83a8d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "days/23 Mar 26 Monday.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "23 Mar 26 Monday"
+            }
+          },
+          {
+            "id": "1b85bcebc60e7819",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "days/23 Mar 26 Monday.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "23 Mar 26 Monday"
+            }
+          },
+          {
+            "id": "0886b6d9902bee8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "days/23 Mar 26 Monday.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "23 Mar 26 Monday"
+            }
+          },
+          {
+            "id": "d264f7fc7ee0b265",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "days/23 Mar 26 Monday.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "23 Mar 26 Monday"
+            }
+          },
+          {
+            "id": "6457552cb7aad775",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "days/23 Mar 26 Monday.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "23 Mar 26 Monday"
+            }
+          },
+          {
+            "id": "17fde3cceab908ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "days/23 Mar 26 Monday.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "23 Mar 26 Monday"
+            }
+          },
+          {
+            "id": "e17e1f12378d22b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "days/23 Mar 26 Monday.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "23 Mar 26 Monday"
+            }
+          },
+          {
+            "id": "c0848ebd319b50e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Overview.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +133,8 @@
               "title": "Overview"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -168,16 +281,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "95eea4e682420a88",
+  "active": "c0848ebd319b50e4",
   "lastOpenFiles": [
-    "days/22 Mar 26 Sunday.md",
+    "days/23 Mar 26 Monday.md",
     "exercises/Cable Crunch.md",
+    "exercises/Sitting Calves.md",
+    "exercises/Abductor.md",
+    "exercises/Adductor.md",
+    "exercises/Leg Press Plates.md",
+    "exercises/Leg Kickback Plate Machine.md",
+    "exercises/Sitting Leg Curl.md",
+    "exercises/Front Squat.md",
+    "exercises/Swinging Hack Squat Reverse Calf.md",
+    "days/22 Mar 26 Sunday.md",
     "Overview.md",
+    "days/19 Mar 26 Thursday.md",
+    "exercises/Triceps Pushdown Straight.md",
     "scripts/exercise-history.js",
     "scripts",
     "ideas.md",
     "exercises/Reverse Cable Crunch.md",
-    "exercises/Triceps Pushdown Straight.md",
     "exercises/Triceps Overhead Dumbell.md",
     "exercises/Single Preacher Dumbell.md",
     "exercises/Single Cable Bicep Curl.md",
@@ -188,15 +311,6 @@
     "exercises/Hammer Incline Chest.md",
     "exercises/Hammer Decline Chest.md",
     "exercises/Farmers Walk.md",
-    "exercises/Facepull.md",
-    "exercises/Dumbell W Pulls.md",
-    "exercises/Dumbell front Raise.md",
-    "exercises/Cable Single Biceps Low Back.md",
-    "exercises/Cable Rotator Cuff InOut.md",
-    "exercises/Cable Lateral Raises Wide.md",
-    "exercises/Cable Fly Incline.md",
-    "exercises/Cable Decline Fly.md",
-    "days/20 Mar 26 Friday.md",
     "Untitled",
     "templates",
     "exercises",
