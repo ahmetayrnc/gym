@@ -11,14 +11,10 @@
             "id": "ac28aacc08292672",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Overview.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "New tab"
             }
           }
         ]
@@ -185,31 +181,34 @@
   },
   "active": "ac28aacc08292672",
   "lastOpenFiles": [
-    "days/22 Mar 26 Sunday.md",
-    "Overview.md",
-    "Day Recap.md",
-    "exercises/Facepull.md",
-    "How Did I Do.md",
-    "days/08 Apr 26 Wednesday.md",
-    "days/20 Apr 26 Monday.md",
-    "days/19 Apr 26 Sunday.md",
-    "days/19 Mar 26 Thursday.md",
-    "days/26 Mar 26 Thursday.md",
-    "ideas.md",
-    "days/23 Mar 26 Monday.md",
-    "exercises/Leg Press Plates.md",
-    "exercises/Preacher Barbell.md",
-    "exercises/Single Preacher Dumbell.md",
-    "exercises/Hammer Incline Chest.md",
-    "exercises/Triceps Pushdown Straight.md",
-    "exercises/Abductor.md",
-    "exercises/Triceps Overhead Dumbell.md",
-    "exercises/Cable Fly Incline.md",
-    "exercises/Farmers Walk.md",
-    "exercises/Dumbell W Pulls.md",
-    "exercises/Dumbell front Raise.md",
-    "exercises/Cable Single Biceps Low Back.md",
-    "exercises/Cable Rotator Cuff InOut.md",
-    "exercises/Cable Lateral Raises Wide.md"
+    "days/01 Apr 26 Wednesday.md",
+    "days/April/20 Apr 26 Monday.md",
+    "days/April/19 Apr 26 Sunday.md",
+    "days/April/18 Apr 26 Saturday.md",
+    "days/April/16 Apr 26 Thursday.md",
+    "days/April/15 Apr 26 Wednesday.md",
+    "days/April/14 Apr 26 Tuesday.md",
+    "days/April/13 Apr 26 Monday.md",
+    "days/April/12 Apr 26 Sunday.md",
+    "days/April/11 Apr 26 Saturday.md",
+    "days/April/09 Apr 26 Thursday.md",
+    "days/April/08 Apr 26 Wednesday.md",
+    "days/April/07 Apr 26 Tuesday.md",
+    "days/April/06 Apr 26 Monday.md",
+    "days/April/03 Apr 26 Friday.md",
+    "days/April/02 Apr 26 Thursday.md",
+    "days/April/01 Apr 26 Wednesday.md",
+    "days/March/30 Mar 26 Monday.md",
+    "days/March/28 Mar 26 Saturday.md",
+    "days/March/27 Mar 26 Friday.md",
+    "days/March/26 Mar 26 Thursday.md",
+    "days/March/25 Mar 26 Wednesday.md",
+    "days/March/24 Mar 26 Tuesday.md",
+    "days/March/23 Mar 26 Monday.md",
+    "days/March/22 Mar 26 Sunday.md",
+    "days/March/21 Mar 26 Saturday.md",
+    "days/April",
+    "days/March",
+    "scripts/previous-day.js"
   ]
 }

@@ -1,5 +1,34 @@
-### Times per Week
+### Monthly Report
+```dataviewjs
+const months = {Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12};
+const monthNames = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
+const monthlyCounts = {};
+
+for (const day of dv.pages('"days"').array()) {
+    const m = day.file.name.match(/^(\d+)\s+(\w+)\s+(\d+)/);
+    if (!m) continue;
+    const month = months[m[2]] || 0;
+    const year = 2000 + parseInt(m[3]);
+    const key = year * 100 + month;
+    monthlyCounts[key] = (monthlyCounts[key] || 0) + 1;
+}
+
+const today = new Date();
+const sorted = Object.keys(monthlyCounts).map(Number).sort((a, b) => b - a);
+
+const rows = sorted.map(key => {
+    const year = Math.floor(key / 100);
+    const month = key % 100;
+    const count = monthlyCounts[key];
+    const isCurrentMonth = (year === today.getFullYear() && month === today.getMonth() + 1);
+    const daysInMonth = isCurrentMonth ? today.getDate() : new Date(year, month, 0).getDate();
+    return `${monthNames[month]} **${count}/${daysInMonth}**`;
+});
+
+dv.list(rows);
+```
+### Times per Week
 ```dataviewjs
 const displayOrder = ['legs', 'chest', 'back', 'shoulder', 'forearms', 'core'];
 const months = {Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12};
@@ -90,9 +119,7 @@ dv.table(
     })
 );
 ```
-
 ### Schedule
-
 ```dataviewjs
 const displayOrder = ['legs', 'chest', 'back', 'shoulder', 'forearms', 'core'];
 const months = {Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12};

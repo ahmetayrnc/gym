@@ -1,3 +1,8 @@
+```dataviewjs
+await dv.view("scripts/previous-day")
+```
+
+
 [[Swinging Hack Squat Reverse Calf]]
 10kg 12
 10kg 12
@@ -37,9 +42,3 @@
 32.5kg 12
 32.5kg 12
 32.5kg 12
-
-
-
-
-
-

@@ -1,3 +1,8 @@
+```dataviewjs
+await dv.view("scripts/previous-day")
+```
+
+
 - [[Lat Pulldown Cable Narrow]]
 	- 25kg 16
 	- 25kg 16

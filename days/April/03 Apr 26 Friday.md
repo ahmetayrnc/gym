@@ -1,3 +1,8 @@
+```dataviewjs
+await dv.view("scripts/previous-day")
+```
+
+
 [[Abductor]]
 27.5kg 12
 27.5kg 12
@@ -22,7 +27,3 @@
 30kg 12
 30kg 12
 30kg 12
-
-
-
-

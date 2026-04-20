@@ -1,3 +1,8 @@
+```dataviewjs
+await dv.view("scripts/previous-day")
+```
+
+
 [[Incline Bench Press]]
 16.25kg 6
 16.25kg 6
@@ -36,6 +41,3 @@
 [[Triceps Overhead Dumbell]]
 6kg 12
 8kg 12
-
-
-

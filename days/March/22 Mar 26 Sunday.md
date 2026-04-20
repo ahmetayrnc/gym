@@ -1,3 +1,8 @@
+```dataviewjs
+await dv.view("scripts/previous-day")
+```
+
+
 [[Triceps Pushdown Straight]]
 21.85kg 10
 21.85kg 12
@@ -24,12 +29,3 @@ Elbow started to hurt
 21.25kg 12
 25kg 12
 28.75kg 12
-
-
-
-
-
-
-
-
-

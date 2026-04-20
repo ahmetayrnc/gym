@@ -1,3 +1,8 @@
+```dataviewjs
+await dv.view("scripts/previous-day")
+```
+
+
 [[Technogym PullDown]]
 40kg 10
 40kg 10
@@ -21,4 +26,3 @@
 [[Leg Raises]]
 0lvl 10
 0lvl 12
-

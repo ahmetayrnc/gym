@@ -1,3 +1,7 @@
+```dataviewjs
+await dv.view("scripts/previous-day")
+```
+
 [[Pullups]]
 0kg 10
 0kg 8

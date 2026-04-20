@@ -1,3 +1,8 @@
+```dataviewjs
+await dv.view("scripts/previous-day")
+```
+
+
 [[Cable Rotator Cuf In]]
 5kg 15
 5kg 15
@@ -32,8 +37,3 @@
 25kg 13
 25kg 13
 25kg 13
-
-
-
-
-

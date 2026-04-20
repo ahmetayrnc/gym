@@ -1,3 +1,8 @@
+```dataviewjs
+await dv.view("scripts/previous-day")
+```
+
+
 [[Incline Bench Press]]
 18.75kg 6
 18.75kg 6

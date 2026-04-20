@@ -1,3 +1,8 @@
+```dataviewjs
+await dv.view("scripts/previous-day")
+```
+
+
 [[Front Squat]]
 16.25kg 6
 16.25kg 6
@@ -22,6 +27,3 @@
 32.5kg 12
 32.5kg 12
 32.5kg 
-
-
-

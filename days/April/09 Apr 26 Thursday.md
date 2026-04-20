@@ -1,3 +1,8 @@
+```dataviewjs
+await dv.view("scripts/previous-day")
+```
+
+
 [[Romanian Deadlifts]]
 20kg 6
 20kg 6
@@ -21,6 +26,3 @@
 0kg 12
 0kg 9
 0kg 6
-
-
-

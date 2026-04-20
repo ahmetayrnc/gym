@@ -1,3 +1,8 @@
+```dataviewjs
+await dv.view("scripts/previous-day")
+```
+
+
 [[Cable Rotator Cuff Out]]
 2.5kg 15
 2.5kg 15
@@ -22,4 +27,3 @@
 4kg 12
 4kg 12
 4kg 12
-

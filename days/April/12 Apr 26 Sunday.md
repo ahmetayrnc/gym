@@ -1,3 +1,8 @@
+```dataviewjs
+await dv.view("scripts/previous-day")
+```
+
+
 [[Pullups]]
 0kg 8
 0kg 6
@@ -33,9 +38,3 @@
 
 [[Wrist Back]]
 2.5kg 12
-
-
-
-
-
-

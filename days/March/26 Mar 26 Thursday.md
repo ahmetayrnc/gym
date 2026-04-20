@@ -1,3 +1,8 @@
+```dataviewjs
+await dv.view("scripts/previous-day")
+```
+
+
 [[Triceps Pushdown Straight]]
 22.5kg 12
 22.5kg 12

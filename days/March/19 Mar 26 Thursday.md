@@ -1,3 +1,8 @@
+```dataviewjs
+await dv.view("scripts/previous-day")
+```
+
+
 - [[Hammer Decline Chest]]
     - 20kg 8
     - 20kg 8

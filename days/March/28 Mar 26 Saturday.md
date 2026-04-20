@@ -1,3 +1,8 @@
+```dataviewjs
+await dv.view("scripts/previous-day")
+```
+
+
 [[Hack Squat Reverse Calf]]
 40kg 12
 32.5kg 12
@@ -22,5 +27,3 @@
 27.5kg 12
 27.5kg 12
 27.5kg 12
-
-

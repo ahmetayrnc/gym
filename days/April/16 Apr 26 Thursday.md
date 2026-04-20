@@ -1,3 +1,8 @@
+```dataviewjs
+await dv.view("scripts/previous-day")
+```
+
+
 [[Pullups]]
 0kg 9
 0kg 7
@@ -30,15 +35,3 @@
 [[dumbell shrug]]
 22kg 12
 22kg 12
-
-
-
-
-
-
-
-
-
-
-
-
