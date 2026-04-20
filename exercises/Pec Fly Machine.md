@@ -1,8 +1,8 @@
 ---
 tags:
-  - legs
+  - chest
 ---
-8 e tak
+
 ```dataviewjs
 await dv.view("scripts/exercise-history")
 ```

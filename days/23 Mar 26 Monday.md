@@ -11,7 +11,7 @@
 [[Sitting Leg Curl]]
 20kg 12
 25kg 12
-30kg 
+30kg 12
 
 [[Leg Press Plates]]
 8pl 8

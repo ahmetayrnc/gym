@@ -1,7 +1,13 @@
-- [[Cable Rotator Cuff InOut]]
-	- 1.85kg 12 out 4.3kg 12 in
-	- 1.85kg 12 out 4.3kg 12 in
-	- 1.85kg 12 out 4.3kg 12 in
+[[Cable Rotator Cuff Out]]
+1.85kg 12
+1.85kg 12
+1.85kg 12
+
+[[Cable Rotator Cuf In]]
+4.3kg 12
+4.3kg 12
+4.3kg 12
+
 - [[Cable Lateral Raises Wide]]
 	- 3.75kg 12
 	- 3.75kg 12
