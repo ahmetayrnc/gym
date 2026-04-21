@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ideas.md",
+                "file": "days/April/20 Apr 26 Monday.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ideas"
+              "title": "20 Apr 26 Monday"
             }
           }
         ],
@@ -255,6 +255,8 @@
   },
   "active": "0c98750c1edb5581",
   "lastOpenFiles": [
+    "Untitled.md",
+    "ideas.md",
     "days/20 Apr 26 Monday.md",
     "exercises/Facepull.md",
     "exercises/Reverse Bicep Curl Dumbell.md",
@@ -279,8 +281,6 @@
     "exercises/Pec Fly Machine.md",
     "exercises/Cable Fly Incline Single Long.md",
     "days/13 Apr 26 Monday.md",
-    "days/11 Apr 26 Saturday.md",
-    "exercises/Incline Bench Press.md",
     "scripts/exercise-history.js",
     "scripts",
     "Untitled",

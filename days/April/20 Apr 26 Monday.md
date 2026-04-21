@@ -41,4 +41,3 @@ await dv.view("scripts/previous-day")
 12.5kg 15
 12.5kg 15
 
-

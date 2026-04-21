@@ -1,0 +1,9 @@
+{
+  "id": "add-exercise",
+  "name": "Add Exercise",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Pick an exercise and insert it with previous values",
+  "author": "gym2",
+  "isDesktopOnly": false
+}

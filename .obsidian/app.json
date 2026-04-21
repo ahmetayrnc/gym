@@ -4,9 +4,9 @@
   "mobileToolbarCommands": [
     "app:go-back",
     "app:go-forward",
-    "editor:insert-wikilink",
     "cmdr:macro-1",
     "hotkeysplus-obsidian:duplicate-lines-down",
-    "cmdr:macro-0"
+    "cmdr:macro-0",
+    "add-exercise:insert-exercise"
   ]
 }

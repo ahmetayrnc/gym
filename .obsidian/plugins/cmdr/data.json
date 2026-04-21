@@ -81,6 +81,10 @@
       {
         "commandID": "cmdr:macro-0",
         "iconID": "lucide-file-plus"
+      },
+      {
+        "commandID": "add-exercise:insert-exercise",
+        "iconID": "lucide-bookmark-plus"
       }
     ],
     "tooltips": false,

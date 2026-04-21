@@ -1,3 +1,1 @@
-- preview for links so I can see what I did previous day
-- On top of the daily note figure out which day it is and display the link to the previous day I did that day
 - Add exercise button that opens a file editor then we select the file it drops the latest values
