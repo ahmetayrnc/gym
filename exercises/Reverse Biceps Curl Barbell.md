@@ -1,6 +1,6 @@
 ---
 tags:
-  - traps
+  - forearms
 ---
 
 ```dataviewjs

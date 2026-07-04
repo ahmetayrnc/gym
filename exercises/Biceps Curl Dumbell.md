@@ -1,6 +1,6 @@
 ---
 tags:
-  - traps
+  - biceps
 ---
 
 ```dataviewjs

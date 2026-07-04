@@ -1,6 +1,8 @@
 ---
 tags:
-  - traps
+  - core
+  - back
+  - legs
 ---
 
 ```dataviewjs

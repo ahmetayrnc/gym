@@ -8,7 +8,7 @@ await dv.view("scripts/previous-day")
 18.75kg 6
 18.75kg 6
 
-[[Cable Fly Incline Single Long]]
+[[Cable Fly Incline Single Crossover]]
 5kg 12
 5kg 12
 5kg 12

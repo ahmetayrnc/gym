@@ -1,1 +1,4 @@
-- Add exercise button that opens a file editor then we select the file it drops the latest values
+- new note does not insert the prev day
+- Delete current line button
+- Upper Lower Pencil neck shit day split identification
+- need to be able to handle the notes I take

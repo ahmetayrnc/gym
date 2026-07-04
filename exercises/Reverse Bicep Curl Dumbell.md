@@ -1,5 +1,5 @@
 ---
-tags: [biceps]
+tags: [forearms]
 ---
 
 ```dataviewjs

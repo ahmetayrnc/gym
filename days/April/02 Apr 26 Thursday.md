@@ -21,7 +21,7 @@ await dv.view("scripts/previous-day")
 [[Single Preacher Dumbell]]
 12kg 10
 12kg 10
-12kg ?
+12kg 8
 
 [[Reverse Bicep Curl Dumbell]]
 8kg 12
