@@ -1,0 +1,9 @@
+{
+  "id": "delete-current-line",
+  "name": "Delete Current Line",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Adds a command that deletes the line the cursor is on, suitable for the mobile shortcut bar.",
+  "author": "gym2",
+  "isDesktopOnly": false
+}

@@ -1,62 +1,47 @@
-const MONTHS = { Jan:1, Feb:2, Mar:3, Apr:4, May:5, Jun:6, Jul:7, Aug:8, Sep:9, Oct:10, Nov:11, Dec:12 };
-
-function parseDate(name) {
-    const m = name.match(/^(\d+)\s+(\w+)\s+(\d+)/);
-    if (!m) return 0;
-    return (2000 + parseInt(m[3])) * 10000 + (MONTHS[m[2]] || 0) * 100 + parseInt(m[1]);
-}
-
-function getWorkoutType(day) {
-    const muscleCounts = {};
-
-    for (const link of day.file.outlinks) {
-        const exercise = dv.page(link.path);
-        if (exercise && exercise.file.tags) {
-            for (const tag of exercise.file.tags) {
-                const t = tag.replace(/^#/, '');
-                muscleCounts[t] = (muscleCounts[t] || 0) + 1;
-            }
-        }
-    }
-
-    const backCount = (muscleCounts['back'] || 0) + (muscleCounts['traps'] || 0);
-    const chestCount = muscleCounts['chest'] || 0;
-    const shoulderCount = muscleCounts['shoulder'] || 0;
-    const hasBiceps = muscleCounts['biceps'] > 0;
-    const hasTriceps = muscleCounts['triceps'] > 0;
-    const hasLegs = muscleCounts['legs'] > 0;
-
-    if (chestCount >= 2) return 'Push';
-    if (backCount >= 2) return 'Pull';
-    if (shoulderCount >= 2) return 'Shoulder';
-    if (hasLegs) return 'Legs';
-    if (hasBiceps || hasTriceps) return 'Arms';
-    return 'Unknown';
-}
+const WT = eval(await dv.io.load("scripts/workout-type.js"));
+const { parseDate, getWorkoutType, recommendType } = WT;
 
 const current = dv.current();
 const currentDate = parseDate(current.file.name);
-const currentType = getWorkoutType(current);
+const currentTypes = getWorkoutType(current);
+const hasExercises = current.file.outlinks.array().length > 0;
 
-if (currentType === 'Unknown') {
-    dv.paragraph(`**${currentType}**`);
+const priorDays = dv.pages('"days"')
+    .filter(d => parseDate(d.file.name) < currentDate)
+    .sort(d => parseDate(d.file.name), 'desc')
+    .array();
+
+function isReal(t) { return t !== 'Unknown' && t !== 'Pencil Neck'; }
+
+if (!hasExercises) {
+    const recType = recommendType(priorDays, currentDate);
+    const prevDay = recType
+        ? priorDays.find(d => getWorkoutType(d).includes(recType))
+        : null;
+    if (recType && prevDay) {
+        dv.paragraph(`**${recType}** — prev: ${prevDay.file.link}`);
+    } else if (recType) {
+        dv.paragraph(`**${recType}**`);
+    } else {
+        dv.paragraph(`**Unknown**`);
+    }
+} else if (!currentTypes.some(isReal)) {
+    dv.paragraph(`**${currentTypes.join(', ')}**`);
 } else {
-    const days = dv.pages('"days"')
-        .filter(d => parseDate(d.file.name) < currentDate)
-        .sort(d => parseDate(d.file.name), 'desc')
-        .array();
-
-    let prevDay = null;
-    for (const day of days) {
-        if (getWorkoutType(day) === currentType) {
-            prevDay = day;
-            break;
+    const real = currentTypes.filter(isReal);
+    const prevLinks = [];
+    const seenDays = new Set();
+    for (const t of real) {
+        const prev = priorDays.find(d => getWorkoutType(d).includes(t));
+        if (prev && !seenDays.has(prev.file.path)) {
+            seenDays.add(prev.file.path);
+            prevLinks.push(`${t}: ${prev.file.link}`);
         }
     }
 
-    if (prevDay) {
-        dv.paragraph(`**${currentType}** — prev: ${prevDay.file.link}`);
+    if (prevLinks.length > 0) {
+        dv.paragraph(`**${real.join(', ')}** — prev: ${prevLinks.join(' · ')}`);
     } else {
-        dv.paragraph(`**${currentType}**`);
+        dv.paragraph(`**${real.join(', ')}**`);
     }
 }

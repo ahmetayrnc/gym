@@ -121,13 +121,9 @@ dv.table(
 ```
 ### Schedule
 ```dataviewjs
-const displayOrder = ['legs', 'chest', 'back', 'shoulder', 'forearms', 'core'];
-const months = {Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12};
-function parseDate(name) {
-    const m = name.match(/^(\d+)\s+(\w+)\s+(\d+)/);
-    if (!m) return 0;
-    return (2000 + parseInt(m[3])) * 10000 + (months[m[2]] || 0) * 100 + parseInt(m[1]);
-}
+const WT = eval(await dv.io.load("scripts/workout-type.js"));
+const { parseDate, getWorkoutType } = WT;
+
 const days = dv.pages('"days"').sort(p => parseDate(p.file.name), 'desc');
 
 const rows = [];
@@ -146,33 +142,18 @@ for (const day of days) {
 
     // Map to display groups
     const muscles = new Set();
-    const groupCounts = {};
-    if (muscleCounts['legs']) { muscles.add('legs'); groupCounts['legs'] = muscleCounts['legs']; }
-    if (muscleCounts['chest']) { muscles.add('chest'); groupCounts['chest'] = muscleCounts['chest']; }
-    const backCount = (muscleCounts['back'] || 0) + (muscleCounts['traps'] || 0);
-    if (backCount) { muscles.add('back'); groupCounts['back'] = backCount; }
-    if (muscleCounts['shoulder']) { muscles.add('shoulder'); groupCounts['shoulder'] = muscleCounts['shoulder']; }
-    if (muscleCounts['biceps']) { muscles.add('biceps'); groupCounts['biceps'] = muscleCounts['biceps']; }
-    if (muscleCounts['triceps']) { muscles.add('triceps'); groupCounts['triceps'] = muscleCounts['triceps']; }
+    if (muscleCounts['legs']) muscles.add('legs');
+    if (muscleCounts['chest']) muscles.add('chest');
+    if (muscleCounts['back'] || muscleCounts['traps']) muscles.add('back');
+    if (muscleCounts['shoulder']) muscles.add('shoulder');
+    if (muscleCounts['biceps']) muscles.add('biceps');
+    if (muscleCounts['triceps']) muscles.add('triceps');
     if (muscleCounts['forearms']) muscles.add('forearms');
     if (muscleCounts['core']) muscles.add('core');
 
-    let workoutType = 'Unknown';
-    if ((groupCounts['chest'] || 0) >= 2) {
-        workoutType = 'Push';
-    } else if ((groupCounts['back'] || 0) >= 2) {
-        workoutType = 'Pull';
-    } else if (muscles.has('shoulder') && (groupCounts['shoulder'] || 0) >= 2) {
-        workoutType = 'Shoulder';
-    } else if (muscles.has('legs')) {
-        workoutType = 'Legs';
-    } else if (muscles.has('biceps') || muscles.has('triceps')) {
-        workoutType = 'Arms';
-    }
-
     const scheduleDisplay = ['legs', 'chest', 'back', 'shoulder', 'biceps', 'triceps', 'forearms', 'core'];
     const sortedMuscles = scheduleDisplay.filter(m => muscles.has(m)).join(', ');
-    rows.push(`${day.file.link} - **${workoutType}** (${sortedMuscles})`);
+    rows.push(`${day.file.link} - **${getWorkoutType(day).join(', ')}** (${sortedMuscles})`);
 }
 
 dv.list(rows);

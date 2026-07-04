@@ -4,109 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e1f516ec91b9d110",
+        "id": "e59de40c2b2579cf",
         "type": "tabs",
         "children": [
           {
-            "id": "b5c18bee0645b270",
+            "id": "3cf68604227035af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "days/29 Jun 26 Monday.md",
+                "file": "days/04 Jul 26 Saturday.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "29 Jun 26 Monday"
-            }
-          },
-          {
-            "id": "fc404dee7ef22116",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "days/02 Jul 26 Thursday.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "02 Jul 26 Thursday"
-            }
-          },
-          {
-            "id": "8b701313062f799c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "days/03 Jul 26 Friday.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "03 Jul 26 Friday"
-            }
-          },
-          {
-            "id": "973ea514a73d5bf3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "days/03 Jul 26 Friday.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "03 Jul 26 Friday"
-            }
-          },
-          {
-            "id": "999041389a901ff7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "exercises/Reverse Biceps Curl Barbell.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Reverse Biceps Curl Barbell"
-            }
-          },
-          {
-            "id": "747fa30bd8b51d0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "exercises/Dumbell Shoulder Press Side.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dumbell Shoulder Press Side"
-            }
-          },
-          {
-            "id": "5e01fc4b0554e5dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "exercises/Stiff Leg Deadlift.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Stiff Leg Deadlift"
+              "title": "04 Jul 26 Saturday"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "days/30 Jun 26 Tuesday.md",
+            "file": "Overview.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -253,8 +168,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "973ea514a73d5bf3",
+  "active": "3cf68604227035af",
   "lastOpenFiles": [
+    "days/June/29 Jun 26 Monday.md",
+    "exercises/Military Press.md",
+    "days/June/26 Jun 26 Friday.md",
+    "days/04 Jul 26 Saturday.md",
+    "Overview.md",
+    "days/June/16 Jun 26 Tuesday.md",
+    "days/July/01 Jul 26 Wednesday.md",
+    "days/July/03 Jul 26 Friday.md",
+    "scripts/recommend-day.js",
     "exercises/Biceps Curl Dumbell.md",
     "days/03 Jul 26 Friday.md",
     "exercises/Trap Lift.md",
@@ -264,7 +188,6 @@
     "exercises/Bench Press.md",
     "days/01 Jul 26 Wednesday.md",
     "exercises/Reverse Cable Crunch.md",
-    "Overview.md",
     "days/30 Jun 26 Tuesday.md",
     "exercises/Stiff Leg Deadlift.md",
     "Day Recap.md",
@@ -274,13 +197,6 @@
     "exercises/Side Oblique Dumbell Standing.md",
     "days/28 Jun 26 Sunday.md",
     "exercises/Reverse Bicep Curl Dumbell.md",
-    "days/26 Jun 26 Friday.md",
-    "exercises/Dumbell Shoulder Press Side.md",
-    "exercises/Triceps Pushdown Rope.md",
-    "days/25 Jun 26 Thursday.md",
-    "days/18 Jun 26 Thursday.md",
-    "exercises/Military Press.md",
-    "days/12 Jun 26 Friday.md",
     "scripts/exercise-history.js",
     "scripts",
     "Untitled",

@@ -21,7 +21,6 @@ await dv.view("scripts/previous-day")
 [[Reverse Biceps Curl Barbell]]
 5kg 12
 5kg 10
-5kg 
 
 [[Ab Wheel]]
 0kg 8

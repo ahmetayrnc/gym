@@ -1,7 +1,7 @@
 const { Plugin, FuzzySuggestModal } = require('obsidian');
 
 const MONTHS = { Jan:1, Feb:2, Mar:3, Apr:4, May:5, Jun:6, Jul:7, Aug:8, Sep:9, Oct:10, Nov:11, Dec:12 };
-const SET_PATTERN = /^[\d.]+\s*[a-zA-Z]{1,3}\s+\d+/;
+
 
 function parseDate(name) {
     const m = name.match(/^(\d+)\s+(\w+)\s+(\d+)/);
@@ -51,7 +51,7 @@ module.exports = class AddExercisePlugin extends Plugin {
                         .filter(f => parseDate(f.basename) < currentDate)
                         .sort((a, b) => parseDate(b.basename) - parseDate(a.basename));
 
-                    let prevSets = [];
+                    let prevLines = [];
                     for (const file of dayFiles) {
                         const content = await this.app.vault.cachedRead(file);
                         if (content.includes(`[[${name}]]`)) {
@@ -62,14 +62,14 @@ module.exports = class AddExercisePlugin extends Plugin {
                                 if (!capturing) continue;
                                 if (/\[\[.+?\]\]/.test(line)) break;
                                 const trimmed = line.trim().replace(/^-\s*/, '');
-                                if (trimmed && SET_PATTERN.test(trimmed)) prevSets.push(trimmed);
+                                if (trimmed) prevLines.push(trimmed);
                             }
                             break;
                         }
                     }
 
                     let text = `[[${name}]]\n`;
-                    if (prevSets.length > 0) text += prevSets.join('\n') + '\n';
+                    if (prevLines.length > 0) text += prevLines.join('\n') + '\n';
 
                     const cursor = editor.getCursor();
                     editor.replaceRange(text, cursor);

@@ -4,7 +4,7 @@
   "mobileToolbarCommands": [
     "app:go-back",
     "app:go-forward",
-    "cmdr:macro-1",
+    "delete-current-line:delete-current-line",
     "hotkeysplus-obsidian:duplicate-lines-down",
     "cmdr:macro-0",
     "add-exercise:insert-exercise"

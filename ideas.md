@@ -1,4 +1,0 @@
-- new note does not insert the prev day
-- Delete current line button
-- Upper Lower Pencil neck shit day split identification
-- need to be able to handle the notes I take
